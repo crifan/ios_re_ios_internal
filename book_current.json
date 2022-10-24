@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向开发：iOS底层机制",
+  "description": "介绍iOS逆向开发期间涉及到iOS底层机制方面的，主要是ObjC方面的内容。包括Block回调、ObjC的Runtime运行时、Apple苹果相关开发资料。以及一些逆向的动态调试中涉及到iOS底层机制的相关心得。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_ios_internal"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_ios_internal/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_ios_internal/pdf/ios_re_ios_internal.pdf"
+    }
+  }
+}
