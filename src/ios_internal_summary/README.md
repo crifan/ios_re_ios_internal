@@ -1,5 +1,20 @@
 # iOS底层机制逆向心得
 
+TODO：
+
+* iOS内核和底层机制
+  * 【整理】iPhone相关名词：xnu的含义
+  * 【或许解决】iPhone中所用的dyld是哪个版本
+  * 【整理】苹果的动态库链接器：dyld
+  * 【整理】苹果的二进制格式Mach-O的详细定义
+  * 【记录】研究XCode中iOS的app的ALSR相关配置
+  * 【整理】dyld相关：dyld_shared_cache动态库共享缓存
+  * 【整理】Mac和iOS中的Sandbox沙箱
+  * 【已解决】研究iOS中app的目录的UUID类的值和app名称如何映射
+  * 【未解决】iOS的app的启动流程启动过程
+
+---
+
 此处整理，iOS逆向时，涉及到iOS的底层机制方面的，心得和经验总结。
 
 ## 通用
