@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v0.7",
-  "lastUpdate": "20221027",
+  "latestVersion": "v0.8",
+  "lastUpdate": "20221109",
   "gitRepoName": "ios_re_ios_internal",
   "bookName": "iOS逆向开发：iOS底层机制",
   "bookDescription": "介绍iOS逆向开发期间涉及到iOS底层机制方面的，主要是ObjC方面的内容。包括Block回调、ObjC的Runtime运行时、Apple苹果相关开发资料。以及一些逆向的动态调试中涉及到iOS底层机制的相关心得。"

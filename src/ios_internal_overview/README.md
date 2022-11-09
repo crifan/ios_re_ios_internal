@@ -7,9 +7,9 @@
 * ObjC
   * Block
     * 详见独立教程：
-      * 【整理Book】iOS逆向开发：Block的相关基础知识
+      * [iOS逆向开发：Block匿名函数 (crifan.org)](https://book.crifan.org/books/ios_re_objc_block/website/)
   * Runtime运行时
     * 详见独立教程：
-      * 【整理Book】iOS逆向开发：ObjC运行时Runtime
+      * [iOS逆向开发：ObjC运行时 (crifan.org)](https://book.crifan.org/books/ios_re_objc_runtime/website/)
 * Apple苹果
-  * 相关开发资料
+  * [苹果相关开发总结 (crifan.org)](https://book.crifan.org/books/apple_develop_summary/website/)
