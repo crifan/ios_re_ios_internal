@@ -40,11 +40,6 @@ TODO：
 * 【整理】iOS逆向心得：po异常时NSString的字符串无法像char*一样打印出来
 * 【整理】iOS逆向调试心得：po不是对象实例但可以看到是哪个类
 
-## objc_msgSend
-
-* 【未解决】IDA中如何解析objc_msgSend函数调用
-* 【整理】iOS逆向和IDA使用心得：调用objc_msgSend时传递给MLPlayerItemQOEErrorEvent的initWithError:fatal:absoluteTime:的参数不够
-
 ## 类
 
 * 【整理】iOS逆向心得：类的属性字段偏移量计算要加上isa的父类
