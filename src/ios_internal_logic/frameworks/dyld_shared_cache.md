@@ -245,3 +245,21 @@ This is another annoyance of dyldcache analysis
 ![dyld_sharded_cache_cutter](../../assets/img/dyld_sharded_cache_cutter.png)
 
 中有：`dyldcache`
+
+### jtool2
+
+```bash
+➜  jtool2 jtool2 --help
+...
+   -h             Dump Mach-O (or DYLD Shared Cache) header
+...
+   -e             extract fat slice, Mach-O segment/section, dyld shared cache dylib or (NEW) kernelcache kext
+...
+dyldinfo Compatible Options:
+   --bind             print addresses dyld will set based on symbolic lookups
+   --lazy_bind        print addresses dyld will lazily set on first use
+   --opcodes          print opcodes used to generate the rebase and binding information
+   --function_starts    print table of function start addresses
+...
+   --tbd          Create a .tbd file (for *OS private frameworks only - you'll need the dyld shared cache for this)
+```

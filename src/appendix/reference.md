@@ -6,6 +6,8 @@
 * 【整理】dyld相关：dyld_shared_cache动态库共享缓存
 * 【记录】研究黑豹dylib文件zzzzHeiBaoLib.dylib中字符串和反越狱相关内容
 * 【已解决】dyld_shared_cache相关：update_dyld_shared_cache
+* 【规避解决】Mac M2 Max中jtool2运行崩溃：killed
+* 【已解决】用jtool2查看Mach-O的二进制akd找代码段相关信息
 * 
 * [谈谈 iOS 中的 `dyld_shared_cache` · Issue #55 · kingcos/Perspective (github.com)](https://github.com/kingcos/Perspective/issues/55)
 * [update_dyld_shared_cache(1) [osx man page]](https://www.unix.com/man-page/osx/1/update_dyld_shared_cache/)
