@@ -1,9 +1,14 @@
 # 参考资料
 
-* 【整理】iOS中的Frameworks框架
-* 【整理】dyld相关：dyld_shared_cache动态库共享缓存
 * [可执行文件格式：Mach-O](https://book.crifan.org/books/exec_file_format_macho/website/)
 * 
+* 【整理】iOS中的Frameworks框架
+* 【整理】dyld相关：dyld_shared_cache动态库共享缓存
+* 【记录】研究黑豹dylib文件zzzzHeiBaoLib.dylib中字符串和反越狱相关内容
+* 【已解决】dyld_shared_cache相关：update_dyld_shared_cache
+* 
+* [谈谈 iOS 中的 `dyld_shared_cache` · Issue #55 · kingcos/Perspective (github.com)](https://github.com/kingcos/Perspective/issues/55)
+* [update_dyld_shared_cache(1) [osx man page]](https://www.unix.com/man-page/osx/1/update_dyld_shared_cache/)
 * [Extracting libraries from dyld_shared_cache | Worth Doing Badly](https://worthdoingbadly.com/dscextract/)
 * [dyld_shared_cache - iPhone Development Wiki](https://iphonedev.wiki/index.php/Dyld_shared_cache)
 * [OS Internals: (newosxbook.com)](http://newosxbook.com/index.php?page=Appendix)
