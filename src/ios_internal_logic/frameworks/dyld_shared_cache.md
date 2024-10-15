@@ -34,6 +34,19 @@
         * Since iOS 3.1, all default (private and public) libraries have been combined into a big cache file in `/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armX` to improve performance. See dyld_shared_cache for more details. The original libraries are no longer useful for non-on-device-developers, so they are eliminated from the system. The framework folders still contain other resources, such as localization strings.
       * Private Frameworks
         * See `/System/Library/PrivateFrameworks`.
+  * 源码
+    * github.com
+      * https://github.com/opensource-apple/dyld/tree/master/launch-cache
+        * https://github.com/opensource-apple/dyld/blob/master/launch-cache/dyld_shared_cache_util.cpp
+        * https://github.com/opensource-apple/dyld/blob/master/launch-cache/dsc_extractor.cpp
+        * https://github.com/opensource-apple/dyld/blob/master/launch-cache/dsc_iterator.cpp
+    * opensource.apple.com
+      * https://opensource.apple.com/source/dyld/dyld-852.2/dyld3/shared-cache/
+        * https://opensource.apple.com/source/dyld/dyld-852.2/dyld3/shared-cache/dyld_shared_cache_util.cpp.auto.html
+        * https://opensource.apple.com/source/dyld/dyld-852.2/dyld3/shared-cache/dsc_extractor.cpp.auto.html
+        * https://opensource.apple.com/source/dyld/dyld-852.2/dyld3/shared-cache/dsc_iterator.cpp.auto.html
+        * https://opensource.apple.com/source/dyld/dyld-852.2/dyld3/shared-cache/dyldinfo.cpp.auto.html
+        * https://opensource.apple.com/source/dyld/dyld-852.2/dyld3/shared-cache/DyldSharedCache.cpp.auto.html
 
 ## 系统相关工具
 
