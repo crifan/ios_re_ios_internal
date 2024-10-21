@@ -8,43 +8,6 @@
 
 [UIDevice | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uidevice?language=objc)
 
-## xnu
-
-由于`xnu`很重要，iOS逆向期间经常涉及到，所以单独介绍相关内容：
-
-* xnu
-  * 离线下载
-    * https://opensource.apple.com/tarballs/xnu/
-  * 在线浏览
-    * https://opensource.apple.com/source/xnu/
-
-### 查看自己的xnu版本
-
-对于自己的越狱手机，此处的iPhone7，去查看对应的xnu的版本：
-
-```bash
-➜  ~ ssh root@192.168.0.33
-iPhone7:~ root# uname -a
-Darwin iPhone7 19.6.0 Darwin Kernel Version 19.6.0: Sat Jun 27 04:35:37 PDT 2020; root:xnu-6153.142.1~4/RELEASE_ARM64_T8010 iPhone9,1 arm64 D10AP Darwin
-```
-
-此处被测的已越狱的iPhone的xnu是：
-
-`xnu-6153.142.1`
-
-去官网找对应版本的代码：
-
-[xnu Source Browser (apple.com)](https://opensource.apple.com/tarballs/xnu/)
-
-没看到这个版本
-
--》只能找到，最接近的版本：
-
-* xnu-6153.141.1.tar.gz
-  * https://opensource.apple.com/tarballs/xnu/xnu-6153.141.1.tar.gz
-
-可下载下来，供后续参考研究。
-
 ### iOS中的基本类型的定义
 
 关于iOS中的很多相关的底层的类型：
