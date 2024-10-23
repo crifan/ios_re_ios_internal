@@ -8,3 +8,4 @@ TODO：
   * 【整理】Mac和iOS中的Sandbox沙箱
   * 【已解决】研究iOS中app的目录的UUID类的值和app名称如何映射
   * 【未解决】iOS的app的启动流程启动过程
+

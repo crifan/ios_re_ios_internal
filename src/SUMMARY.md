@@ -19,6 +19,5 @@
     * [关系总结](ios_internal_logic/apple_os_part/relation.md)
   * [Mach-O](ios_internal_logic/mach_o/README.md)
   * [Frameworks框架](ios_internal_logic/frameworks/README.md)
-    * [dyld_shared_cache](ios_internal_logic/frameworks/dyld_shared_cache.md)
 * [附录](appendix/README.md)
   * [参考资料](appendix/reference.md)
