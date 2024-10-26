@@ -129,11 +129,17 @@ TODO：
 
 [String Format Specifiers (apple.com)](https://developer.apple.com/library/archive/documentation/CoreFoundation/Conceptual/CFStrings/formatSpecifiers.html#//apple_ref/doc/uid/TP40004265)
 
-## The iPhone Wiki
+##  The Apple Wiki == The iPhone Wiki
+
+* 旧
+  * https://theiphonewiki.com/
+* 新
+  * https://theapplewiki.com/
 
 ### syscall
 
-[Kernel Syscalls - The iPhone Wiki](https://www.theiphonewiki.com/wiki/Kernel_Syscalls)
+* 新：[Kernel Syscalls - The Apple Wiki](https://theapplewiki.com/wiki/Kernel_Syscalls)
+  * 旧：[Kernel Syscalls - The iPhone Wiki](https://www.theiphonewiki.com/wiki/Kernel_Syscalls)
 
 ### hw.machine 机型 映射
 

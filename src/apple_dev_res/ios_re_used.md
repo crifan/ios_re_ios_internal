@@ -54,12 +54,6 @@ typedef __int32_t       __darwin_pid_t;         /* [???] process and group IDs *
 
 * `ENOTSUP` = `45`
 
-### 在线浏览`xnu`代码
-
-[XXR - XNU cross reference - Alpha (newosxbook.com)](http://newosxbook.com/xxr/index.jl)
-
-![xnu_code_online_view](../assets/img/xnu_code_online_view.jpg)
-
 ## man手册文档
 
 前面介绍的

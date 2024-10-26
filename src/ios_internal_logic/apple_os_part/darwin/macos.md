@@ -11,12 +11,12 @@
         * `Cocoa`
         * `Mach`
         * `IOKit`
-        * `Xcode`的`Interface Builder`
+        * （`Xcode`的）`Interface Builder`
       * 特性
-        * 采用 Mach 微内核
-        * 使用 Objective-C 作为开发语言
+        * 采用`Mach`微内核
+        * 使用`Objective-C`作为开发语言
         * 面向对象思想贯穿整个操作系统
-        * 设备驱动开发是一个面向对象的框架，叫做 DriverKit
+        * 设备驱动开发是一个面向对象的框架，叫做`DriverKit`
   * 操作系统名称演化历史
     * 概述
       * `Mac OS Classic` -> `Mac OS X` -> `OS X` -> `macOS`
@@ -28,6 +28,7 @@
           * `Mac OS Classic`：一个拥有伟大的 GUI 但设计糟糕
           * `NeXTSTEP`：一个设计很棒但 GUI 平淡
         * 融合：`Mac OS Classic` + `NeXTSTEP` => `Mac OS X`
+        * 结果：有了`Mac OS Classic`的GUI以及`NextStep`的架构
       * `OS X`
         * `OS X`的架构
           * ![os_x_arch](../../../assets/img/os_x_arch.png)
@@ -42,7 +43,28 @@
 | 2016 年至今 | macOS | 便于与iOS、tvOS、watchOS 命名统一 |
   * 架构
     * `macOS`架构
-      * ![mac_os_arch](../../../assets/img/mac_os_arch.png)
+      * 图
+        * ![mac_os_arch](../../../assets/img/mac_os_arch.png)
+      * 文字
+        * 闭源的
+          * `User Experience Layer`=`用户UI层`
+            * 包括`Aqua`、`Dashboard`、`Spotlight`以及一些特性
+              * 在iOS中，用户体验完全取决于SpringBoard，同时，iOS中Spotlight也是支持的
+              * 即：
+                * 对应关系：`macOS`中的`Aqua` ~= `iOS`中的`SpringBoard`
+                  * 针对的操作
+                    * `macOS`中的`Aqua`：鼠标
+                    * `iOS`中的`SpringBoard`：触屏
+          * `Application Frameworks layer`=`应用框架层`
+            * 包括`Cocoa`、`Carbon`以及`Java`
+              * 然而在`iOS`中，只有`Cocoa`（严格来讲，`Cocoa Touch`是`Cocoa`的派生物）
+          * `Core Frameworks`=`核心框架层` == `图形和媒体层`=`Graphic and Media layer`
+            * 包括`核心框架`、`Open GL`以及`Quick Time`
+        * 开源的
+          * `Darwin`=`系统核心层`
+            * 操作系统核心`kernel`以及`UNIX shell`的环境
+            * 详见：
+              * [Darwin](../../../ios_internal_logic/apple_os_part/darwin/README.md)
 
 ## macOS中查看Darwin版本
 

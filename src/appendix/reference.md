@@ -9,7 +9,16 @@
 * 【规避解决】Mac M2 Max中jtool2运行崩溃：killed
 * 【已解决】用jtool2查看Mach-O的二进制akd找代码段相关信息
 * 【整理】iOS中的XNU
+* 【整理】iPhone相关名词：xnu的含义
+* 【整理】iOS底层机制：微内核Mach
+* 【已解决】iOS中进程的flag定义
+* 【已解决】iOS逆向中CocoaTop64中查看进程详情中的Flags的具体含义
+* 【记录】用CocoaTop查看WhatsApp进程的flag属性
+* 【已解决】iOS中CFStringRef转换为NSString和互相转换
+* 【已解决】iOS中CFStringRef和CFURLRef字符串判断和过滤以某个子字符串开头
+* 【已解决】iOS中从otool输出的B16@0:8搞懂函数类型和参数定义
 * 
+* [再看CVE-2016-1757---浅析mach message的使用 | mrh的学习分享 (turingh.github.io)](https://turingh.github.io/2016/07/05/%E5%86%8D%E7%9C%8BCVE-2016-1757%E6%B5%85%E6%9E%90mach%20message%E7%9A%84%E4%BD%BF%E7%94%A8/)
 * [从RunLoop来看iOS内核中消息的发送: mach_msg - 掘金 (juejin.cn)](https://juejin.cn/post/7086732464621617160)
 * [谈谈 iOS 中的 `dyld_shared_cache` · Issue #55 · kingcos/Perspective (github.com)](https://github.com/kingcos/Perspective/issues/55)
 * [update_dyld_shared_cache(1) [osx man page]](https://www.unix.com/man-page/osx/1/update_dyld_shared_cache/)
